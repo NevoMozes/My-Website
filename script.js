@@ -6,7 +6,4 @@ let currentIndex = 0;
 button.addEventListener('click', () => {
   currentIndex = (currentIndex + 1) % images.length;
   image.src = images[currentIndex];
-const themeToggle = document.getElementById('themeToggle');
-themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('light');
 });
