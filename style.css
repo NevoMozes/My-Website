@@ -1,29 +1,34 @@
+/* עיצוב כללי */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #f9a8d4, #c084fc);
-  color: #fff;
+  background: linear-gradient(135deg, #1f1f1f, #2b2b2b); /* רקע כהה */
+  color: #f0f0f0; /* טקסט בהיר */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
+/* אלמנט מרכזי */
 main {
   text-align: center;
 }
 
+/* כותרת */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  color: #f7c873; /* זהב עדין */
 }
 
+/* תמונה מעוגלת עם צל */
 img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 4px solid white;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  border: 4px solid #444;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -31,22 +36,27 @@ img:hover {
   transform: scale(1.05);
 }
 
+/* כפתור יוקרתי */
 button {
   margin-top: 20px;
   padding: 12px 24px;
   font-size: 1rem;
   border: none;
-  border-radius: 25px;
-  background-color: #10b981;
+  border-radius: 30px;
+  background-color: #1e88e5; /* כחול כהה */
   color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(30, 136, 229, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* ריחוף הכפתור */
 button:hover {
-  background-color: #059669;
+  background-color: #64b5f6; /* כחול בהיר יותר */
+  transform: translateY(-4px); /* ריחוף עדין למעלה */
 }
 
+/* רספונסיביות */
 @media (max-width: 600px) {
   img {
     width: 180px;
