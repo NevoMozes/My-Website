@@ -15,11 +15,27 @@ main {
   text-align: center;
 }
 
-/* כותרת */
+/* כותרת ראשית באנגלית */
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #f7c873; /* זהב עדין */
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #f7c873; /* זהב אלגנטי */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* כותרת משנית בעברית */
+h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #dcdcdc;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #f7c873;
 }
 
 /* תמונה מעוגלת עם צל */
