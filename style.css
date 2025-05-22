@@ -83,3 +83,25 @@ button:hover {
     font-size: 2rem;
   }
 }
+
+body.light {
+  background: linear-gradient(135deg, #eeeeee, #ffffff);
+  color: #222;
+}
+
+body.light h1 {
+  color: #1e88e5;
+}
+
+body.light h2 {
+  color: #444;
+}
+
+body.light button {
+  background-color: #1e88e5;
+  color: white;
+}
+
+body.light button:hover {
+  background-color: #1565c0;
+}
