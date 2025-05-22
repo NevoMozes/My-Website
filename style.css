@@ -1,21 +1,20 @@
-/* עיצוב כללי */
+/*  general deco */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #1f1f1f, #2b2b2b); /* רקע כהה */
-  color: #f0f0f0; /* טקסט בהיר */
+  background: linear-gradient(135deg, #1f1f1f, #2b2b2b); 
+  color: #f0f0f0; /* text color*/
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* אלמנט מרכזי */
 main {
   text-align: center;
 }
 
-/* כותרת ראשית באנגלית */
+/* headline */
 h1 {
   font-size: 3rem;
   font-weight: 400;
@@ -39,7 +38,7 @@ h1 {
   }
 }
 
-/* כותרת משנית בעברית */
+/*  secondary headline  */
 h2 {
   font-size: 1.8rem;
   font-weight: 300;
@@ -52,7 +51,6 @@ h2:hover {
   color: #f7c873;
 }
 
-/* תמונה מעוגלת עם צל */
 img {
   width: 250px;
   height: 250px;
@@ -66,7 +64,6 @@ img:hover {
   transform: scale(1.05);
 }
 
-/* כפתור יוקרתי */
 button {
   margin-top: 20px;
   padding: 12px 24px;
@@ -80,13 +77,12 @@ button {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* ריחוף הכפתור */
 button:hover {
   background-color: #64b5f6; /* כחול בהיר יותר */
   transform: translateY(-4px); /* ריחוף עדין למעלה */
 }
 
-/* רספונסיביות */
+/* responsativity */
 @media (max-width: 600px) {
   img {
     width: 180px;
